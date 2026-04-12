@@ -191,12 +191,12 @@ export default function MimshakimLanding() {
             <a href="#faq" className="hover:text-[#00E5FF] transition-colors">שאלות נפוצות</a>
           </nav>
           <div className="flex items-center gap-3">
-            <button className="hidden sm:block px-5 py-2.5 rounded-full border-2 border-[#0D1F3C] text-[#0D1F3C] font-semibold text-sm hover:bg-[#0D1F3C] hover:text-white transition-all duration-300">
+            <a href="https://app.mimshakim.com/login" className="hidden sm:block px-5 py-2.5 rounded-full border-2 border-[#0D1F3C] text-[#0D1F3C] font-semibold text-sm hover:bg-[#0D1F3C] hover:text-white transition-all duration-300">
               כניסת מנהלים
-            </button>
-            <button className="px-5 py-2.5 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-bold text-sm shadow-[0_4px_20px_rgba(240,83,6,0.35)] hover:shadow-[0_4px_28px_rgba(240,83,6,0.5)] hover:scale-105 transition-all duration-300">
+            </a>
+            <a href="https://app.mimshakim.com/register" className="px-5 py-2.5 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-bold text-sm shadow-[0_4px_20px_rgba(240,83,6,0.35)] hover:shadow-[0_4px_28px_rgba(240,83,6,0.5)] hover:scale-105 transition-all duration-300">
               התחילו בחינם
-            </button>
+            </a>
           </div>
         </div>
       </header>
@@ -232,9 +232,9 @@ export default function MimshakimLanding() {
                   ישירות ליומן. השכבה המקשרת שחוסכת לך זמן ומשאבים.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button className="px-8 py-4 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-bold text-lg shadow-[0_4px_24px_rgba(240,83,6,0.4)] hover:scale-105 hover:shadow-[0_4px_36px_rgba(240,83,6,0.55)] transition-all duration-300">
+                  <a href="https://app.mimshakim.com/register" className="inline-block px-8 py-4 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-bold text-lg shadow-[0_4px_24px_rgba(240,83,6,0.4)] hover:scale-105 hover:shadow-[0_4px_36px_rgba(240,83,6,0.55)] transition-all duration-300">
                     התנסות חינם עכשיו
-                  </button>
+                  </a>
                   <button className="px-8 py-4 rounded-full bg-white/50 backdrop-blur-xl border border-white/70 text-[#0D1F3C] font-semibold text-lg shadow-[0_8px_32px_rgba(0,0,0,0.06)] hover:bg-white/70 hover:shadow-[0_8px_32px_rgba(0,0,0,0.1)] transition-all duration-300 flex items-center justify-center gap-2">
                     <PlayIcon />
                     צפו בהדגמה
@@ -483,7 +483,7 @@ export default function MimshakimLanding() {
                     <div className="w-3 h-3 rounded-full bg-red-400" />
                     <div className="w-3 h-3 rounded-full bg-yellow-400" />
                     <div className="w-3 h-3 rounded-full bg-green-400" />
-                    <div className="mx-auto bg-slate-800 text-[11px] px-4 py-1 rounded-lg text-slate-400 font-mono">mimshakim-dashboard.app</div>
+                    <div className="mx-auto bg-slate-800 text-[11px] px-4 py-1 rounded-lg text-slate-400 font-mono">app.mimshakim.com</div>
                   </div>
                   <div className="p-6 flex gap-5 h-80">
                     <div className="w-1/4 bg-slate-700/50 rounded-xl border border-slate-600/40 p-3 flex flex-col gap-3">
@@ -545,9 +545,9 @@ export default function MimshakimLanding() {
           <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
             <h2 className="text-3xl font-black text-white mb-4">מוכנים לחסוך 40% בזמן הצוות?</h2>
             <p className="text-lg text-white/70 mb-8">הצטרפו ל-150+ מרפאות שכבר עברו לעתיד.</p>
-            <button className="px-10 py-4 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-bold text-lg shadow-[0_4px_24px_rgba(240,83,6,0.4)] hover:scale-105 hover:shadow-[0_4px_36px_rgba(240,83,6,0.55)] transition-all duration-300">
+            <a href="https://app.mimshakim.com/register" className="inline-block px-10 py-4 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-bold text-lg shadow-[0_4px_24px_rgba(240,83,6,0.4)] hover:scale-105 hover:shadow-[0_4px_36px_rgba(240,83,6,0.55)] transition-all duration-300">
               התחילו תקופת ניסיון חינם
-            </button>
+            </a>
           </div>
         </AnimateIn>
       </section>
@@ -737,12 +737,12 @@ export default function MimshakimLanding() {
             <h2 className="text-4xl font-black text-white mb-4 leading-snug">מוכנים לחבר את המרפאה שלכם לעתיד?</h2>
             <p className="text-slate-400 text-lg mb-10">התחילו היום — ההגדרה לוקחת דקות ספורות.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-12 py-5 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-black text-xl shadow-[0_4px_32px_rgba(240,83,6,0.35)] hover:scale-105 hover:shadow-[0_4px_48px_rgba(240,83,6,0.5)] transition-all duration-300">
+              <a href="https://app.mimshakim.com/register" className="inline-block px-12 py-5 rounded-full bg-gradient-to-l from-[#FF7332] to-[#F05306] text-white font-black text-xl shadow-[0_4px_32px_rgba(240,83,6,0.35)] hover:scale-105 hover:shadow-[0_4px_48px_rgba(240,83,6,0.5)] transition-all duration-300">
                 התחילו תקופת ניסיון חינם
-              </button>
-              <button className="px-10 py-5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold text-lg hover:bg-white/20 transition-all duration-300">
+              </a>
+              <a href="https://app.mimshakim.com/login" className="inline-block px-10 py-5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold text-lg hover:bg-white/20 transition-all duration-300">
                 דברו עם נציג
-              </button>
+              </a>
             </div>
           </div>
         </AnimateIn>
